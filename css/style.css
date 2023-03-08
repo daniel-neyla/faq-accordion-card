@@ -1,0 +1,20 @@
+:root {
+  /* colors */
+  --clr-primary-900: hsl(238, 29%, 16%);
+  --clr-primary-700: hsl(237, 12%, 33%);
+  --clr-secondary-500: hsl(240, 6%, 50%);
+  --clr-show-answer: hsl(14, 88%, 65%);
+
+  --clr-bg-gradient-1: hsl(273, 75%, 66%);
+  --clr-bg-gradient-2: hsl(240, 73%, 65%);
+
+  --clr-answer-seperation-border: hsl(240, 5%, 91%);
+
+  /* Font family */
+  --ff-kumbh-sans: "Kumbh Sans", sans-serif;
+
+  /* Font weigth */
+
+  --fw-regular: 400;
+  --fw-bold: 700;
+}
