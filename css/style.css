@@ -91,6 +91,9 @@ body {
 .faq__faq-item {
   padding: 1.5rem 0;
   border-bottom: 1px solid var(--clr-answer-seperation-border);
+}
+
+.faq__faq-item:is(.active) {
   display: flex;
   flex-direction: column;
   gap: 1rem;
@@ -130,4 +133,8 @@ body {
   height: 0;
   overflow: hidden;
   color: var(--clr-secondary-500);
+}
+
+.faq__faq-item:is(.active) .faq__answer {
+  height: auto;
 }
