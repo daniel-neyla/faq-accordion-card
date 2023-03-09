@@ -40,14 +40,15 @@
             src="./images/illustration-box-desktop.svg"
             alt="illustration of a box"
             class="faq__box-illustration"
+            style="display: none"
           />
         </section>
         <section class="faq__content">
           <h1 class="faq__heading">Faq</h1>
           <div class="faq__faqs-list">
             <div class="faq__faq-item">
-              <div class="faq__question">
-                <p>How many team members can I invite?</p>
+              <div class="wrapper">
+                <p class="faq__question">How many team members can I invite?</p>
                 <button class="faq__item-arrow-btn">
                   <img
                     src="./images/icon-arrow-down.svg"
@@ -63,8 +64,10 @@
               </div>
             </div>
             <div class="faq__faq-item">
-              <div class="faq__question">
-                <p>What is the maximum file upload size?</p>
+              <div class="wrapper">
+                <p class="faq__question">
+                  What is the maximum file upload size?
+                </p>
                 <button class="faq__item-arrow-btn">
                   <img
                     src="./images/icon-arrow-down.svg"
@@ -80,8 +83,8 @@
               </div>
             </div>
             <div class="faq__faq-item">
-              <div class="faq__question">
-                <p>How do I reset my password?</p>
+              <div class="wrapper">
+                <p class="faq__question">How do I reset my password?</p>
                 <button class="faq__item-arrow-btn">
                   <img
                     src="./images/icon-arrow-down.svg"
@@ -98,8 +101,8 @@
               </div>
             </div>
             <div class="faq__faq-item">
-              <div class="faq__question">
-                <p>Can I cancel my subscription?</p>
+              <div class="wrapper">
+                <p class="faq__question">Can I cancel my subscription?</p>
                 <button class="faq__item-arrow-btn">
                   <img
                     src="./images/icon-arrow-down.svg"
@@ -114,9 +117,9 @@
                 </p>
               </div>
             </div>
-            <div class="faq__faq-item">
-              <div class="faq__question">
-                <p>Do you provide additional support?</p>
+            <div class="faq__faq-item active">
+              <div class="wrapper">
+                <p class="faq__question">Do you provide additional support?</p>
                 <button class="faq__item-arrow-btn">
                   <img
                     src="./images/icon-arrow-down.svg"
@@ -124,7 +127,7 @@
                   />
                 </button>
               </div>
-              <div class="faq__answer">
+              <div class="faq__answer" style="height: auto">
                 <p>
                   Chat and email support is available 24/7. Phone lines are open
                   during normal business hours.
