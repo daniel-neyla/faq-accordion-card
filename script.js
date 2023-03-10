@@ -4,7 +4,6 @@ console.log("hello world");
 
 // const questions = document.querySelectorAll(".faq__question");
 const questions = document.querySelectorAll(".faq__faq-item");
-const arrowBtns = document.querySelectorAll(".faq__item-arrow-btn");
 
 let activeFaqItem = "";
 
@@ -28,3 +27,5 @@ questions.forEach((question) => {
     toggleAnswer(faqItem);
   });
 });
+
+questions[1].click();

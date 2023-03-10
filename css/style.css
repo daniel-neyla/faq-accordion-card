@@ -144,9 +144,9 @@ body {
 @media screen and (min-width: 1110px) {
   .faq__card {
     grid: 1fr / 38rem 1fr;
-    gap: 8.7rem;
+    /* gap: 8.7rem; */
     padding: 0;
-    width: 92rem;
+    width: 85rem;
     min-height: 50.9rem;
   }
 
