@@ -48,7 +48,7 @@ body {
   padding: 0rem 2rem 4rem 2rem;
   /* min-width: 30rem; */
   max-width: 60rem;
-  /* transform: translateY(5%); */
+  transform: translateY(5%);
 }
 
 .faq__img-container {
