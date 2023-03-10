@@ -2,7 +2,8 @@
 
 console.log("hello world");
 
-const questions = document.querySelectorAll(".faq__question");
+// const questions = document.querySelectorAll(".faq__question");
+const questions = document.querySelectorAll(".faq__faq-item");
 const arrowBtns = document.querySelectorAll(".faq__item-arrow-btn");
 
 let activeFaqItem = "";
@@ -20,14 +21,6 @@ const toggleAnswer = function (faqItem) {
     activeFaqItem = faqItem;
   }
 };
-
-arrowBtns.forEach((btn) => {
-  console.log(btn);
-  btn.addEventListener("click", () => {
-    const faqItem = btn.closest(".faq__faq-item");
-    toggleAnswer(faqItem);
-  });
-});
 
 questions.forEach((question) => {
   question.addEventListener("click", () => {
