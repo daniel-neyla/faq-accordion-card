@@ -27,7 +27,7 @@ body {
   );
 
   width: 100%;
-  min-height: 100vh;
+  height: 100vh;
   font-size: 1.2rem;
   font-weight: var(--fw-regular);
   font-family: var(--ff-kumbh-sans);
@@ -48,7 +48,7 @@ body {
   padding: 0rem 2rem 4rem 2rem;
   /* min-width: 30rem; */
   max-width: 60rem;
-  transform: translateY(5%);
+  /* transform: translateY(5%); */
 }
 
 .faq__img-container {
